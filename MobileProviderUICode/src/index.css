@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+main {
+  width: calc(100% - 119px);
+}
+.loader {
+  border: 8px solid #2196f3;
+  border-radius: 50%;
+  border-top: 8px solid #3dee3d;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  position: fixed;
+  top: 35%;
+  left: 45%;
+}
